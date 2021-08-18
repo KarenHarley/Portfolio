@@ -1,8 +1,4 @@
-body{
-    
-  padding: 0 100px 0 100px;
-    
-}
+
 header h3::before {
     padding-right: 5px;
     /*display: inline-block; useless*/
@@ -12,28 +8,25 @@ header h3::before {
     color: soild;
   }
   header{
-      font-size: 10px;
+      font-size: 5px;
   }
   header h3{
     font-weight: 900;
   }
   .nav-link{
-      font-size: 25px;
+      font-size: 10px;
   }
   .navbar{
-      padding: 150px 0px;
+      padding: 50px 40px;
   }
 
   .bold-text-big{
-      font-size: 80px;
+      font-size: 30px;
       font-weight: 900;
       text-align: center;
-      
-
-
   }
   #myName{
-      font-size: 30px;
+      font-size: 12px;
       display: flex;
       justify-content: center;
       font-weight: 900;
@@ -41,7 +34,7 @@ header h3::before {
   .centered-text{
       display: flex;
       justify-content: center;
-      font-size: 30px;
+      font-size: 15px;
       text-align: center;
   }
   #centered-btn{
@@ -51,4 +44,113 @@ header h3::before {
   .padding{
       padding: 200px 0px;
   }
+  @media screen and (min-width: 600px){
+    body{
+    
+        padding: 0 100px 0 100px;
+          
+      }
+      header h3::before {
+          padding-right: 5px;
+          /*display: inline-block; useless*/
+          font-family: "Font Awesome 5 Free";
+          font-weight: 400; /* 900 soild 400 line one*/
+          content: "\f07c";
+          color: soild;
+        }
+        header{
+            font-size: 10px;
+        }
+        header h3{
+          font-weight: 900;
+        }
+        .nav-link{
+            font-size: 25px;
+        }
+        .navbar{
+            padding: 150px 0px;
+        }
+      
+        .bold-text-big{
+            font-size: 50px;
+            font-weight: 900;
+            text-align: center;
+        }
+        #myName{
+            font-size: 25px;
+            display: flex;
+            justify-content: center;
+            font-weight: 900;
+        }
+        .centered-text{
+            display: flex;
+            justify-content: center;
+            font-size: 20px;
+            text-align: center;
+        }
+        #centered-btn{
+            display: flex;
+            justify-content: center;
+        }
+        .padding{
+            padding: 200px 0px;
+        }
+        
+      
+  }
+  @media screen and (min-width: 1000px){
+    body{
+    
+        padding: 0 100px 0 100px;
+          
+      }
+      header h3::before {
+          padding-right: 5px;
+          /*display: inline-block; useless*/
+          font-family: "Font Awesome 5 Free";
+          font-weight: 400; /* 900 soild 400 line one*/
+          content: "\f07c";
+          color: soild;
+        }
+        header{
+            font-size: 10px;
+        }
+        header h3{
+          font-weight: 900;
+        }
+        .nav-link{
+            font-size: 25px;
+        }
+        .navbar{
+            padding: 150px 0px;
+        }
+      
+        .bold-text-big{
+            font-size: 80px;
+            font-weight: 900;
+            text-align: center;
+        }
+        #myName{
+            font-size: 30px;
+            display: flex;
+            justify-content: center;
+            font-weight: 900;
+        }
+        .centered-text{
+            display: flex;
+            justify-content: center;
+            font-size: 30px;
+            text-align: center;
+        }
+        #centered-btn{
+            display: flex;
+            justify-content: center;
+        }
+        .padding{
+            padding: 200px 0px;
+        }
+        
+      
+  }
+
   
