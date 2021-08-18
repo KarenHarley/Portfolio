@@ -1,5 +1,6 @@
 header h3::before {
   padding-right: 5px;
+  /*display: inline-block; useless*/
   font-family: "Font Awesome 5 Free";
   font-weight: 400; /* 900 soild 400 line one*/
   content: "\f07c";
@@ -42,23 +43,38 @@ header h3 {
 .padding {
   padding: 80px 0px;
 }
-#avater{
-    background-color: rgb(159, 157, 157);
-}
-img{
-    border: solid;
-}
+
 .imgDiv {
   display: flex;
   justify-content: center;
+  align-items: center;
   padding: 20px;
-
   
 }
+
+img{
+    border: gray solid 2px;
+ }
+ #avater{
+    background-color: rgb(159, 157, 157);
+}
+
 @media screen and (min-width: 600px) {
   img {
     height: 300px;
     width: 90%;
+  }
+
+  body {
+    padding: 0 100px 0 100px;
+  }
+  header h3::before {
+    padding-right: 5px;
+    /*display: inline-block; useless*/
+    font-family: "Font Awesome 5 Free";
+    font-weight: 400; /* 900 soild 400 line one*/
+    content: "\f07c";
+    color: soild;
   }
   header {
     font-size: 10px;
@@ -109,7 +125,17 @@ img{
     width: 110%;
   }
 }
-
+  body {
+    padding: 0 100px 0 100px;
+  }
+  header h3::before {
+    padding-right: 5px;
+    /*display: inline-block; useless*/
+    font-family: "Font Awesome 5 Free";
+    font-weight: 400; /* 900 soild 400 line one*/
+    content: "\f07c";
+    color: soild;
+  }
   header {
     font-size: 10px;
   }
