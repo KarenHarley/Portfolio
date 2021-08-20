@@ -90,6 +90,7 @@ header h3 {
 }
 .icon{
   color: black;
+  font-size: 50px;
 }
 
 img {
@@ -282,6 +283,10 @@ h6 {
   }
   .padding {
     padding: 200px 0px 0px;
+  }
+  .icon{
+    color: black;
+    font-size: 90px;
   }
 }
 @media screen and (min-width: 1400px) {
