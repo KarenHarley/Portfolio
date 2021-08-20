@@ -81,7 +81,7 @@ header h3 {
   width: 80%;
   height: 80%;
   visibility: visible;
-  opacity: 2.7;
+  opacity: 2.7;/*make background more transparent*/
 }
 
 img {
