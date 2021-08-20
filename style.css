@@ -56,39 +56,56 @@ header h3 {
   position: relative;
   padding: 20px;
 }
-.imgDiv div {
+
+.image {
+  height: 200px;
+  width: 300px;
+}
+
+.shadow {
+  position: absolute;
+  background: rgba(0, 0, 0, 1);
+  height: 200px;
+  width: 300px;
+  opacity: 0;
+  z-index: 50;
+}
+
+.shadow:hover {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.imgDiv > .details {
   text-align: center;
   position: absolute;
   color: white;
-  background-color: rgb(40, 40, 40);
   margin-bottom: 5px;
   font-family: sans-serif;
   opacity: 0;
-  visibility: hidden;
-  -webkit-transition: visibility 0s, opacity 0.5s linear;
-  transition: visibility 0s, opacity 0.5s linear;
+  -webkit-transition: all 0.5s linear;
+  transition: all 0.5s linear;
   border-radius: 5px;
+  height: 200px;
+  width: 300px;
 }
-.imgDiv div a {
+
+.details:hover {
+  opacity: 1;
+  background: rgba(0, 0, 0, 0.7);
+}
+
+.details a {
   text-decoration: none;
   color: rgb(40, 40, 40);
   background-color: white;
   padding: 5px;
   border-radius: 5px;
 }
-.imgDiv div h5 {
+
+.details h5 {
   padding-top: 40px;
 }
-.imgDiv:hover div {
-  width: 89%;
-  height: 85%;
-  visibility: visible;
-  opacity: 0.7; /*make background more transparent*/
-}
-.imgDiv a,
-h5 {
-  opacity: 1;
-}
+
 .btn a {
   color: #ffffff;
 }
@@ -113,15 +130,11 @@ h6 {
   font-size: 30px;
   font-weight: bold;
 }
-/*
-#email a{
-  text-decoration: none;
+
+.skillIcon {
+  padding-right: 10px;
+  font-size: 40px;
 }
-#email{
-  
-  text-decoration: underline;
-}
-*/
 #contact {
   padding-bottom: 200px;
 }
@@ -134,111 +147,83 @@ h6 {
   text-decoration: none;
   color: black;
 }
-@media screen and (min-width: 375px) {
-  .imgDiv:hover div {
-    width: 76%;
-    height: 84%;
-  }
-}
-@media screen and (min-width: 450px) {
-  .imgDiv:hover div {
-    width: 54%;
-    height: 76%;
-  }
-}
-@media screen and (min-width: 550px) {
-  .imgDiv:hover div {
-    width: 54%;
-    height: 86%;
-  }
-}
+
 @media screen and (min-width: 600px) {
   #textBeforeBtn {
     padding: 0px 100px 50px;
   }
-
-  img {
-    height: 250px;
-    width: 90%;
+  .image {
+    height: 300px;
+    width: 400px;
   }
-  .imgDiv:hover div {
-    width: 84%;
-    height: 87%;
-  }
-  #avater {
-    height: 250px;
-    width: 60%;
-  }
-  body {
-    padding: 0 100px 0 100px;
-  }
-  header h3::before {
-    padding-right: 5px;
-    /*display: inline-block; useless*/
-    font-family: "Font Awesome 5 Free";
-    font-weight: 400; /* 900 soild 400 line one*/
-    content: "\f07c";
-    color: soild;
-  }
-  header {
-    font-size: 10px;
-  }
-  header h3 {
-    font-weight: 900;
-  }
-  .nav-link {
-    font-size: 25px;
-  }
-  .navbar {
-    padding: 150px 0px;
-  }
-
-  .bold-text-big {
-    font-size: 50px;
-    font-weight: 900;
-    text-align: center;
-  }
-  #myName {
-    font-size: 25px;
-    display: flex;
-    justify-content: center;
-    font-weight: 900;
-  }
-  .centered-text {
-    display: flex;
-    justify-content: center;
-    font-size: 15px;
-    text-align: center;
-  }
-  #centered-btn {
-    display: flex;
-    justify-content: center;
-  }
-  .padding {
-    padding: 100px 0px;
+  .imgDiv > .details {
+    height: 300px;
+    width: 400px;
   }
 }
-@media screen and (min-width: 900px) {
-  img {
-    height: 300px;
-    width: 80%;
+#avater {
+  height: 250px;
+  width: 60%;
+}
+body {
+  padding: 0 100px 0 100px;
+}
+header h3::before {
+  padding-right: 5px;
+  /*display: inline-block; useless*/
+  font-family: "Font Awesome 5 Free";
+  font-weight: 400; /* 900 soild 400 line one*/
+  content: "\f07c";
+  color: soild;
+}
+header {
+  font-size: 10px;
+}
+header h3 {
+  font-weight: 900;
+}
+.nav-link {
+  font-size: 25px;
+}
+.navbar {
+  padding: 150px 0px;
+}
+
+.bold-text-big {
+  font-size: 50px;
+  font-weight: 900;
+  text-align: center;
+}
+#myName {
+  font-size: 25px;
+  display: flex;
+  justify-content: center;
+  font-weight: 900;
+}
+.centered-text {
+  display: flex;
+  justify-content: center;
+  font-size: 15px;
+  text-align: center;
+}
+#centered-btn {
+  display: flex;
+  justify-content: center;
+}
+.padding {
+  padding: 100px 0px;
+}
+
+@media screen and (min-width: 1000px) {
+  .image {
+    height: 245px;
+    width: 268px;
   }
-  .imgDiv:hover div {
-    width: 76%;
-    height: 89%;
-    visibility: visible;
-    opacity: 0.7; /*make background more transparent*/
+  .imgDiv > .details {
+    height: 245px;
+    width: 268px;
   }
-  @media screen and (min-width: 1000px) {
-    img {
-      height: 250px;
-      width: 260px;
-    }
-    .imgDiv:hover div {
-      width: 93%;
-      height: 87%;
-    }
-  }
+
   body {
     padding: 0 100px 0 100px;
   }
@@ -293,6 +278,7 @@ h6 {
   }
 }
 @media screen and (min-width: 1400px) {
+  /*
   img {
     height: 350px;
     width: 100%;
@@ -304,9 +290,18 @@ h6 {
     width: 91%;
     height: 90%;
     visibility: visible;
-    opacity: 0.7; /*make background more transparent*/
+    opacity: 0.7; /*make background more transparent
+    */
+  .image {
+    height: 376px;
+    width: 400px;
+  }
+  .imgDiv > .details {
+    height: 376px;
+    width: 400px;
   }
 }
+
 /*
   large 400 height 
   300 width 
