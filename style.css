@@ -78,10 +78,13 @@ header h3 {
   padding-top: 40px;
 }
 .imgDiv:hover div {
-  width: 80%;
-  height: 80%;
+  width: 88%;
+  height: 85%;
   visibility: visible;
-  opacity: 2.7;/*make background more transparent*/
+  opacity: 0.7; /*make background more transparent*/
+}
+.imgDiv:hover h5,
+a {
 }
 
 img {
@@ -91,10 +94,10 @@ img {
   border: none;
   padding: 10px;
 }
-.skillsText{
+.skillsText {
   padding: 30px;
 }
-h6{
+h6 {
   display: flex;
   justify-content: center;
   font-size: 30px;
@@ -109,19 +112,35 @@ h6{
   text-decoration: underline;
 }
 */
-#contact{
+#contact {
   padding-bottom: 200px;
 }
+@media screen and (min-width: 450px) {
+  .imgDiv:hover div {
+    width: 54%;
+    height: 76%;
+  }
+}
+@media screen and (min-width: 550px) {
+  .imgDiv:hover div {
+    width: 54%;
+    height: 86%;
+  }
+}
 @media screen and (min-width: 600px) {
-  #textBeforeBtn{
+  #textBeforeBtn {
     padding: 0px 100px 50px;
-    
-   }
+  }
+
   img {
     height: 250px;
     width: 90%;
   }
-  #avater{
+  .imgDiv:hover div {
+    width: 84%;
+    height: 87%;
+  }
+  #avater {
     height: 250px;
     width: 60%;
   }
@@ -179,10 +198,20 @@ h6{
     height: 300px;
     width: 80%;
   }
+  .imgDiv:hover div {
+    width: 76%;
+    height: 89%;
+    visibility: visible;
+    opacity: 0.7; /*make background more transparent*/
+  }
   @media screen and (min-width: 1000px) {
     img {
       height: 250px;
       width: 260px;
+    }
+    .imgDiv:hover div {
+      width: 93%;
+      height: 87%;
     }
   }
   body {
