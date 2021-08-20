@@ -109,6 +109,9 @@ h6{
   text-decoration: underline;
 }
 */
+#contact{
+  padding-bottom: 200px;
+}
 @media screen and (min-width: 600px) {
   #textBeforeBtn{
     padding: 0px 100px 50px;
