@@ -111,11 +111,10 @@ header h3 {
   font-size: 50px;
 }
 
-img {
+.image {
   border: gray solid 2px;
 }
 #avater {
-  border: none;
   padding: 10px;
 }
 .skillsText {
@@ -127,11 +126,21 @@ h6 {
   font-size: 30px;
   font-weight: bold;
 }
-
+/*
+#skillIconHTML {
+  padding-right: 10px;
+  font-size: 40px;
+}
+#skillIconJS {
+  padding-right: 10px;
+  font-size: 40px;
+}
+*/
 .skillIcon {
   padding-right: 10px;
   font-size: 40px;
 }
+
 #contact {
   padding-bottom: 200px;
 }
@@ -142,7 +151,11 @@ h6 {
   display: flex;
   justify-content: center;
   text-decoration: none;
-  color: black;
+ 
+}
+#btnResume{
+  display: flex;
+  justify-content: center;
 }
 
 @media screen and (min-width: 600px) {
@@ -159,8 +172,8 @@ h6 {
   }
 }
 #avater {
-  height: 250px;
-  width: 60%;
+  height: 190px;
+  width: 220px;
 }
 body {
   padding: 0 10px 0 10px;
@@ -220,7 +233,7 @@ header h3 {
     height: 245px;
     width: 268px;
   }
-
+  
   body {
     padding: 0 100px 0 100px;
   }
@@ -273,6 +286,11 @@ header h3 {
     color: black;
     font-size: 90px;
   }
+  #avater {
+    height: 333px;
+    width: 330px;
+  }
+  
 }
 @media screen and (min-width: 1400px) {
   /*
