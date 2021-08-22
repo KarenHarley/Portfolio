@@ -31,7 +31,6 @@ When you hover over a project picture you will have access to the:
 
 ---
 
----
 - A Contact-Me section.
 
 ![Picture of contact me section](pics/contact.png)
