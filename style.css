@@ -116,6 +116,7 @@ header h3 {
 }
 #avater {
   padding: 10px;
+  border-radius: 100%;
 }
 .skillsText {
   padding: 30px;
@@ -164,7 +165,7 @@ h6 {
   }
 }
 #avater {
-  height: 190px;
+  height: 179px;
   width: 220px;
 }
 body {
@@ -277,8 +278,9 @@ header h3 {
     font-size: 90px;
   }
   #avater {
-    height: 333px;
+    height: 300px;
     width: 330px;
+    padding-left: 33px;
   }
   
 }
