@@ -43,6 +43,11 @@ When you hover over a project picture you will have access to the:
 ![Picture of website intro](pics/websitePic.png)
 
 ---
+# Technologies used
+
+1. Bootstrap
+2. CSS
+3. HTML
 
 #### Links:
 
