@@ -2,11 +2,7 @@
 
 This is Karen Villagomez's website portfolio. Where you can find:
 
-- An About-Me section.
 
-![Picture of About me section](pics/about.png)
-
----
 
 - My Work and past projects.
 
@@ -19,9 +15,22 @@ When you hover over a project picture you will have access to the:
 2. Github repo link
 3. Website link
 
-![Picture of contact work when hover](pics/hover.png)
+
+ 
+<br />
+
+<p align="center">
+  <img width="500" src="./pics/hover.png" alt="Picture of contact work when hover">
+</p>
 
 ---
+
+- An About-Me section.
+
+![Picture of About me section](pics/about.png)
+
+---
+
 - A Contact-Me section.
 
 ![Picture of contact me section](pics/contact.png)
@@ -33,6 +42,11 @@ When you hover over a project picture you will have access to the:
 ![Picture of website intro](pics/websitePic.png)
 
 ---
+# Technologies used
+
+1. Bootstrap
+2. CSS
+3. HTML
 
 #### Links:
 
