@@ -40,6 +40,7 @@ header h3 {
   justify-content: center;
   font-size: 15px;
   text-align: center;
+  padding: 20px;
 }
 #centered-btn {
   display: flex;
@@ -149,6 +150,9 @@ h6 {
   display: flex;
   justify-content: center;
 }
+.navbar a {
+  font-size: 20px;
+}
 
 @media screen and (min-width: 600px) {
   #textBeforeBtn {
@@ -163,9 +167,7 @@ h6 {
     height: 300px;
     width: 400px;
   }
-  .navbar a {
-    font-size: 20px;
-  }
+  
 }
 @media screen and (min-width: 1000px) {
   .image {
