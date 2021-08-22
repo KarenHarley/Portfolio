@@ -163,55 +163,10 @@ h6 {
     height: 300px;
     width: 400px;
   }
+  .navbar a {
+    font-size: 20px;
+  }
 }
-#avater {
-  height: 179px;
-  width: 220px;
-}
-body {
-  padding: 0 10px 0 10px;
-}
-header h3::before {
-  padding-right: 5px;
-  /*display: inline-block; useless*/
-  font-family: "Font Awesome 5 Free";
-  font-weight: 400; /* 900 soild 400 line one*/
-  content: "\f07c";
-  color: soild;
-}
-header {
-  font-size: 10px;
-}
-header h3 {
-  font-weight: 900;
-}
-.nav-link {
-  font-size: 25px;
-}
-.navbar {
-  padding: 150px 0px;
-}
-
-#myName {
-  font-size: 25px;
-  display: flex;
-  justify-content: center;
-  font-weight: 900;
-}
-.centered-text {
-  display: flex;
-  justify-content: center;
-  font-size: 15px;
-  text-align: center;
-}
-#centered-btn {
-  display: flex;
-  justify-content: center;
-}
-.padding {
-  padding: 100px 0px;
-}
-
 @media screen and (min-width: 1000px) {
   .image {
     height: 245px;
