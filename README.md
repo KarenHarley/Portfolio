@@ -20,7 +20,7 @@ When you hover over a project picture you will have access to the:
 <br />
 
 <p align="center">
-  <img width="200" src="./pics/hover.png" alt="Picture of contact work when hover">
+  <img width="500" src="./pics/hover.png" alt="Picture of contact work when hover">
 </p>
 
 ---
