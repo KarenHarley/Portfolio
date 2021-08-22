@@ -162,6 +162,7 @@ h6 {
   #textBeforeBtn {
     padding: 0px 100px 50px;
   }
+
   .image {
     height: 300px;
     width: 400px;
@@ -199,11 +200,6 @@ header h3 {
   padding: 150px 0px;
 }
 
-.bold-text-big {
-  font-size: 50px;
-  font-weight: 900;
-  text-align: center;
-}
 #myName {
   font-size: 25px;
   display: flex;
@@ -262,6 +258,9 @@ header h3 {
     font-size: 50px;
     font-weight: 900;
     text-align: center;
+  }
+  #biggest-text{
+    font-size: 70px;
   }
   #myName {
     font-size: 30px;
