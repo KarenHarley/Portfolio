@@ -12,8 +12,8 @@ This is Karen Villagomez's website portfolio. Where you can find:
 
 When you hover over a project picture you will have access to the:
 1. Project Name.
-2. Github repo link
-3. Website link
+2. Github repo link.
+3. Website link.
 
 
  
