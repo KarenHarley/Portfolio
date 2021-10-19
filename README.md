@@ -4,7 +4,7 @@ This is Karen Villagomez's website portfolio. Where you can find:
 
 
 
-- My Work and past projects!
+- My Work and past projects.
 
 ![Picture work section](pics/work.png)
 
