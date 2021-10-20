@@ -37,7 +37,7 @@ When you hover over a project picture you will have access to the:
 
 ---
 
-## Picture of website
+## Picture of website Intro
 
 ![Picture of website intro](pics/websitePic.png)
 
