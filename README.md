@@ -42,7 +42,7 @@ When you hover over a project picture you will have access to the:
 ![Picture of website intro](pics/websitePic.png)
 
 ---
-# Technologies used
+# Technologies used.
 
 1. Bootstrap
 2. CSS
