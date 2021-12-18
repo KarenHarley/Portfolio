@@ -12,8 +12,8 @@ This is Karen Villagomez's website portfolio. Where you can find:
 
 When you hover over a project picture you will have access to the:
 1. Project Name.
-2. Github repo link
-3. Website link
+2. Github repo link.
+3. Website link.
 
 
  
@@ -37,12 +37,12 @@ When you hover over a project picture you will have access to the:
 
 ---
 
-## Picture of website
+## Picture of website Intro
 
 ![Picture of website intro](pics/websitePic.png)
 
 ---
-# Technologies used
+# Technologies used.
 
 1. Bootstrap
 2. CSS
