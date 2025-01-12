@@ -53,7 +53,7 @@ When you hover over a project picture you will have access to the:
 #### Links:
 
 ###### Github:
-https://github.com/KarenHarley/Portfolio
+`https://github.com/KarenHarley/Portfolio`
 
 ###### Website:
-https://karenharley.github.io/Portfolio/
+`https://karenharley.github.io/Portfolio/`
